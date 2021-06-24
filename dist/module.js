@@ -48041,7 +48041,7 @@ function (_super) {
         bottom: 50,
         left: 80
       },
-      padding: 0.2,
+      padding: 0.15,
       innerPadding: 1,
       groupMode: "grouped",
       valueScale: {
