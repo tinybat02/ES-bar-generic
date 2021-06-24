@@ -38,7 +38,7 @@ export const processData = (series: Frame[]) => {
     const group = serie.name || 'dummy';
     keys.push(group);
     serie.fields[0].values.buffer.map((value, idx) => {
-      result[idx][group] = Math.round(value * 100) / 100;
+      result[idx][group] = Math.round(value);
     });
   });
 

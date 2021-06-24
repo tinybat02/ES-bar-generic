@@ -48243,7 +48243,7 @@ var processData = function processData(series) {
     var group = serie.name || 'dummy';
     keys.push(group);
     serie.fields[0].values.buffer.map(function (value, idx) {
-      result[idx][group] = Math.round(value * 100) / 100;
+      result[idx][group] = Math.round(value);
     });
   });
   return {
