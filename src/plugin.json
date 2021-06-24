@@ -1,0 +1,25 @@
+{
+  "type": "panel",
+  "name": "Bar Generic",
+  "id": "id-es-bar-generic",
+  "dataFormats": ["table"],
+  "info": {
+    "description": "Bar Generic",
+    "author": {
+      "name": "Nam Le"
+    },
+    "keywords": [],
+    "logos": {
+      "small": "img/bar-day.svg",
+      "large": "img/bar-day.svg"
+    },
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "6.3.x",
+    "plugins": []
+  }
+}
